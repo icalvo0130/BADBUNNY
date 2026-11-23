@@ -65,8 +65,9 @@ crashlytics-build.properties
 .DS_Store
 
 # ===== Proyecto web de Needle Engine =====
+# OJO: la carpeta dist/ SI se sube: Netlify publica esa carpeta tal cual (sin build).
 node_modules/
-dist/
 .vite/
 Needle/newProject/build.log
 *.log
+*.zip

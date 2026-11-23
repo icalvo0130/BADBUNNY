@@ -1,0 +1,4 @@
+# Netlify publica la carpeta dist ya compilada (se genera en Unity con
+# Needle Engine > Export and Build Dist (Production)). No hay comando de build.
+[build]
+  publish = "dist"
